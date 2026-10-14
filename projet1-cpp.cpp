@@ -84,11 +84,6 @@ void afficher_map(const Map& map, const Hero& hero) {
             //std::cout << grille[ligne][colonne] << ' ';
 
             grille[hero.y][hero.x] = map.Hero;
-
-            
-
-
-
                 }
                 std::cout << '\n';
             }
